@@ -1,2 +1,2 @@
 # ToDo-Website
-Write down your todos here, and come back later to mark completed each one you've done
+Using LS to store users to-do's and whether its completed or not, with a remove button for each to-do
