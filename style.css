@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: fixed;
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.container{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+input{
+    height: 3rem;
+    width: 20rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    /* border: 3px #b6b6b6 solid; */
+    border: none;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 30px;
+
+}
+
+input::placeholder{
+    color: #b6b6b6;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+h1{
+    margin: 2rem 0;
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 202, 202);
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    font-size: 1.3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: dimgray;
+    border-top: 2px #e9e9e9 solid;
+    user-select: none;
+    cursor: pointer;
+}
+
+li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+i{
+    margin-left: auto;
+    padding-right: 10px;
+    transition: 0.2s;
+}
+
+i:hover{
+    color: maroon;
+}
+
+.done{
+    color: #b6b6b6;
+    text-decoration: line-through;
+}
